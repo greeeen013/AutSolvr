@@ -1,0 +1,2575 @@
+{
+    "title": "Test ze sítí (PSIT1)",
+    "description": "Generováno automaticky na základě stylů Wordu",
+    "questions": [
+        {
+            "text": "Jaká jsou správná tvrzení o Fyzické vrstvě referenčního modelu ISO/OSI:",
+            "orderIndex": 0,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Detekuje kolize na médiu.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Převádí pakety do bitové podoby.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Převádí rámce do bitové podoby.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Realizuje kódování dat.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Jaká jsou správná tvrzení o Datové vrstvě referenčního modelu ISO/OSI:",
+            "orderIndex": 1,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Zajišťuje přístup k médiu.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Zajišťuje přenos dat jen mezi každými dvěma fyzicky přímo propojenými uzly.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pro logickou adresaci využívá MAC adresy.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Vytváří datové jednotky nazývané rámce.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Připojuje se zde hlavička a patička.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vytváří datové rámce nazývané pakety.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Pro fyzickou adresaci využívá MAC adresy.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Využívá kontrolní součet pro detekci chyb.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Jaká jsou správná tvrzení o Síťové vrstvě referenčního modelu ISO/OSI:",
+            "orderIndex": 2,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Jednotka informace na této vrstvě se nazývá paket.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Jsou zde realizovány protokoly IPX, IPv6 a IPv4.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vytváří jednotku informace nazývanou rámec.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Zajišťuje výběr end-to-end cesty pouze mezi každými přímo fyzicky připojenými uzly.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Zajišťuje výběr end-to-end cesty skrz celou síť.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vytváří jednotku informace nazývanou segment.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Zajišťuje směrování.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Zajišťuje logické adresování.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Mezi IGP – Interior Gateway Protokoly patří:",
+            "orderIndex": 3,
+            "images": [],
+            "answers": [
+                {
+                    "text": "EIGRP",
+                    "isCorrect": true
+                },
+                {
+                    "text": "OSPF",
+                    "isCorrect": true
+                },
+                {
+                    "text": "BGP",
+                    "isCorrect": false
+                },
+                {
+                    "text": "RIP",
+                    "isCorrect": true
+                },
+                {
+                    "text": "BGP je exterior gateway protokol – IGP   Všechno to jsou protokoly pro dynamické směrování",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Na obrázku je znázorněn obecný cyklus operací aktivit pro správě sítě:",
+            "orderIndex": 4,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Modrý blok asociuje - Interpretace dle politiky správy a výběr rozhodnutí.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Modrý blok asociuje - Monitorování stavu a příjem zpráv o událostech v síti.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Modrý blok asociuje - Provedení řídící operace.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Mezi základní principy datové vrstvy patří:",
+            "orderIndex": 5,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Zajištění nezávislosti na konkrétním typu média pro vyšší vrstvy, pomocí znalosti formátu rámců pro různá média.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Zajištění nezávislosti na konkrétním typu média pro vyšší vrstvy, pomocí znalosti formátu segmentů pro různá média.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Zajištění nezávislosti na konkrétním typu média pro vyšší vrstvy, aby bylo možné síťová zařízení připojit k různým médiím.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Zajištění závislosti na konkrétním typu média pro vyšší vrstvy, aby bylo možné síťová zařízení připojit k různým médiím.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Vytváření rámce",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Zpřístupnění média nižším vrstvám",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Řízení přenosu přes médium",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Zpřístupnění média vyšším vrstvám",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "MAC (Media Access Control) má za úkol:",
+            "orderIndex": 6,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Adresaci na datové vrstvě.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Zapouzdřit pakety do rámců.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Řídit příjem a vysílání signálu na/do média.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Identifikovat protokol třetí vrstvy a předávat mu příslušné pakety.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Hierarchický design rozlišuje tři základní vrstvy:",
+            "orderIndex": 7,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Přístupová vrstva.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Distribuční vrstva.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Horizontální a vertikální strukturované vedení kabeláže.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Vrstva jádra sítě.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vrstva hlavní části sítě.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Mezi parametry vztahující se na médiím patří:",
+            "orderIndex": 8,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Maximální délka média",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Typy konektorů",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Bandwidth",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Způsob zapojení konektorů",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Metoda NRZ používá pro vyjádření stavu 0 a 1 signalizaci:",
+            "orderIndex": 9,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pro vyjádření 0 (nuly) sestupnou hranu napětí uprostřed časového intervalu.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Pro vyjádření 1 (jedničky) vzestupnou hranu napětí uprostřed časového intervalu.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Pro vyjádření 1 (jedničky) vysokou úroveň napětí.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pro vyjádření 0 (nuly) nízkou úroveň napětí.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Metoda NRZ - Manchester používá pro vyjádření stavu 0 a 1 signalizaci:",
+            "orderIndex": 10,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pro vyjádření 1 (jedničky) vysokou úroveň napětí.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Pro vyjádření 0 (nuly) nízkou úroveň napětí.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Pro vyjádření 1 (jedničky) vzestupnou hranu napětí uprostřed časového intervalu.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pro vyjádření 0 (nuly) sestupnou hranu napětí uprostřed časového intervalu.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Kódování na fyzické vrstvě má za následek:",
+            "orderIndex": 11,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Neefektivní využívání přenosového pásma",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Lepší detekci chyb",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vyšší rychlost přenosu",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pomalejší zpracování signálu na síťové kartě",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Zvolte mechanismy pro migraci mezi IPv4 a IPv6:",
+            "orderIndex": 12,
+            "images": [],
+            "answers": [
+                {
+                    "text": "IGMP protokol.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "NAT překlad (NAT-PT).",
+                    "isCorrect": true
+                },
+                {
+                    "text": "GIGA trunk.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "ISATAP tunely.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Další jsou statické tunely, toredo tunely, dual stack",
+            "orderIndex": 13,
+            "images": [],
+            "answers": []
+        },
+        {
+            "text": "Protokol UDP:",
+            "orderIndex": 14,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Je spojový protokol.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Je nespojový protokol.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Je spolehlivý protokol.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Je nespolehlivý protokol.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Protokol TCP:",
+            "orderIndex": 15,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Je spojový protokol.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Je nespojový protokol.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Je spolehlivý protokol.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Je nespolehlivý protokol.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "DNS (Domain Name System) je řešení, které umožňuje:",
+            "orderIndex": 16,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Skrýt nedostatky nebo strukturu sítě.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Rozdělit síť dle logické přehlednosti.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Využít symbolickou adresaci.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vyhledávat a směrovat data v síti.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "IPv4 adresa je tvořena:",
+            "orderIndex": 17,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Identifikátorem sítě",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Identifikátorem koncového zařízení v síti",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Identifikátorem komunikující aplikace",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Identifikátorem fyzické adresy",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Zvolte protokoly sloužící pro rozkládání zátěže v síti:",
+            "orderIndex": 18,
+            "images": [],
+            "answers": [
+                {
+                    "text": "HSRP",
+                    "isCorrect": true
+                },
+                {
+                    "text": "GLBP",
+                    "isCorrect": true
+                },
+                {
+                    "text": "VRRP",
+                    "isCorrect": true
+                },
+                {
+                    "text": "NAT-PT",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Přístupové porty na přepínači jsou vždy přiděleny do určité VLAN. Ve výchozím nastavení do defaultní VLAN1:",
+            "orderIndex": 19,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Protokol IPv6 přináší širší podporu mobilních zařízení:",
+            "orderIndex": 20,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Jakým způsobem získává manažer informace o vybraném zařízení v počítačové síti, pro jeho management a diagnostiku:",
+            "orderIndex": 21,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Manažer vyšle automaticky požadavek na dané zařízení.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Inteligentní zařízení vždy zasílá pravidelně informace o svém stavu.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Manažer vyšle požadavek na dané zařízení na vyžádání správcem a vyhodnotí informace poskytované agentem.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Manažer musí vždy vyslat požadavek na dané zařízení.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Kódování na fyzické vrstvě má za následek:",
+            "orderIndex": 22,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Vyšší počet neplatných symbolů, které je nutné zpracovávat.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Lepší rozložení energetického spektra.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Rozlišení dat od řídících signálů.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Náročnost na detekci dlouhých úseků 1 nebo 0.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Vyberte oblasti, které je nutné brát v potaz při návrhu strukturované kabeláže:",
+            "orderIndex": 23,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Telekomunikační místnost",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pracovní oblast",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Kabeláž pro rozvod na patrech",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Páteřní kabel",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "DNS (Domain Name System) je řešení, které umožňuje:",
+            "orderIndex": 24,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Využít dekadické IP adresy a jejich mapování na binární hodnoty.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Skrýt nedostatky nebo strukturu sítě.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Šifrovat datovou komunikaci.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Rozdělit síť dle logické přehlednosti.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Vyberte pravdivé tvrzení o MAC adrese:",
+            "orderIndex": 25,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Při startu počítače je nahrána do paměti RAM a s touto adresou je dále pracováno.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Je 48bitové číslo reprezentováno dvanácti hexadecimálními symboly.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Je vypálena do ROM paměti na síťovém adaptéru.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "První 3 bajty identifikují výrobce síťového rozhraní.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "LLC (Logical Link Control) IEEE 802.2 má za úkol:",
+            "orderIndex": 26,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Adresaci na datové vrstvě.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Zapouzdřit pakety do rámců.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Řídit příjem a vysílání signálu na/do média.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Identifikovat protokol třetí vrstvy a předávat mu příslušné pakety.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Referenční model ISO/OSI rozděluje komunikační proces do sedmi vrstev a u každé z nich popisuje:",
+            "orderIndex": 27,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Funkce, které vykonává a zajišťuje.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Služby, které poskytuje vyšším vrstvám.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Přesné činnosti jednotlivých síťových protokolů a serverů.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Funkce, které poskytuje ostatním vrstvám.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Zpráva je ze síťového hlediska tvořena:",
+            "orderIndex": 28,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Množstvím dat a řídicích informací.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pouze daty bez řídících informací.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Protokoly a řídícími informacemi.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Jednotkou dat a protokoly.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Pro projekt BITNET je charakteristické:",
+            "orderIndex": 29,
+            "images": [],
+            "answers": [
+                {
+                    "text": "BITNET není kompatibilní s TCP/IP.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "BITNET využívá komunikační protokol NJE od IBM.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "BITNET je kompatibilní s TCP/IP.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "BITNET využívá komunikační protokol SMB od Microsoft.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Protokol IP zajišťuje:",
+            "orderIndex": 30,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Logické adresování sítí a koncových zařízení v nich",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Best-effort doručení dat",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Prostředky pro doručení paketů mezi koncovými zařízeními",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Adresaci na úrovni fyzických adres",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Vyberte správná tvrzení o protokolu SNMPv1:",
+            "orderIndex": 31,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Funkce managementu nemůže být distribuována mezi více správcovských konzolí.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Hesla i přenášená data jsou přenášena v plain-textu.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nemá žádné prostředky pro komunikaci mezi manažery.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nemožnost získat větší množství dat jediným dotazem.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Na modulaci a demodulaci na fyzické vrstvě jsou kladeny nároky:",
+            "orderIndex": 32,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Vytížit přenosové médium a vyhradit jej tak pro jeden komunikační kanál.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Rozlišení dat od řídících signálů.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Detekce spojení.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Zabránit neautorizovaným zařízením v přístupu k médiu.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Využití pásma 2,4 i 5 Ghz, rychlost 100 až 210 Mbps a dosah až 70m je charakteristické pro technologii:",
+            "orderIndex": 33,
+            "images": [],
+            "answers": [
+                {
+                    "text": "IEEE 802.11g",
+                    "isCorrect": false
+                },
+                {
+                    "text": "IEEE 802.11b",
+                    "isCorrect": false
+                },
+                {
+                    "text": "IEEE 802.11a",
+                    "isCorrect": false
+                },
+                {
+                    "text": "IEEE 802.11n",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Získání IPv6 adresy je možné docílit:",
+            "orderIndex": 34,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Automatizovanou konfigurací pomocí RARP protokolu.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Bez-stavovou konfigurací.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Statickou konfigurací.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Automatizovanou konfigurací pomocí ARP protokolu.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Stateful DHCP",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Jedním z nejpoužívanějších kódování je kódovací standard 4B/5B, pro který je charakteristické:",
+            "orderIndex": 35,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Každý Byte je reprezentován 4 bity, které jsou převedeny na 5-bytový kód.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Každý Byte se rozdělí na 4-bitové části, které jsou převedeny na 5-bitový kód.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Je protokolem transportní vrstvy.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Je kódovacím standardem fyzické vrstvy.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Jednou z částí rámce na datové vrstvě je Frame Check Sequence (FCS). Vyberte správné informace o FCS:",
+            "orderIndex": 36,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Kontrolní součet CRC je vypočítán odesílatelem.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Kontrolní součet CRC je vypočítán příjemcem.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "V případě neshody CRS součtu příjemce a odesílatele je odesílatel požádán o nový výpočet FCS.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Používá se trojstranná výměna CRC",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "DNS využívá následující protokoly transportní vrstvy:",
+            "orderIndex": 37,
+            "images": [],
+            "answers": [
+                {
+                    "text": "TCP",
+                    "isCorrect": true
+                },
+                {
+                    "text": "UDP",
+                    "isCorrect": true
+                },
+                {
+                    "text": "IP",
+                    "isCorrect": false
+                },
+                {
+                    "text": "NAT",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Počítačová síť je tvořena:",
+            "orderIndex": 38,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Protokoly",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Aktivními prvky",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pasivními prvky",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Přenosovými médii",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "SNMP pracuje jako dotazovací (datagramový) protokol, tedy:",
+            "orderIndex": 39,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pakety se mohou ztratit nebo promíchat.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pakety se nemohou ztratit nebo promíchat.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Jeho výhodou je zajištěnost spolehlivosti při přenosu dat.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Jeho nevýhodou je nezajištěnost spolehlivosti při přenosu dat.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "O Management Information Base (MIB) jsou platná tvrzení:",
+            "orderIndex": 40,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Spravované zařízení může implementovat vždy pouze jednu MIB.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Spravované zařízení může implementovat jednu nebo více MIB, v závislosti na funkci.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "MIB jsou napsány dle Structure of Management Information (SMI).",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Popisuje sadu objektů správy.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Mezi zprostředkující zařízení nepatří (aktivní prvky):",
+            "orderIndex": 41,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Optické a metalické vedení",
+                    "isCorrect": true
+                },
+                {
+                    "text": "IPS/IDS",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Access Pointy",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Firewally",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Jaká jsou správná tvrzení o Relační vrstvě referenčního modelu ISO/OSI:",
+            "orderIndex": 42,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Organizuje a synchronizuje řídící dialog mezi systémy zapojenými v komunikaci.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vytváří relace mezi komunikujícími systémy.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vkládá synchronizační značky.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Předává token pro pověření k přenosu.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Kdy využít dynamické směrování?",
+            "orderIndex": 43,
+            "images": [],
+            "answers": [
+                {
+                    "text": "V síti existuje pouze pár směrovačů.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Síť je připojena k internetu pouze skrz jednoho poskytovatele.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "V síti máme mnoho směrovačů.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "V síti dochází k častým změnám.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Které vrstvě zodpovídá popis? Skládá se z MAC a LLC podvrstvy. Zařazení: bridge, huby, switche.",
+            "orderIndex": 44,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Síťová",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Relační",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Linková",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Aplikační",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Transportní",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Fyzická",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Prezentační",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Které vrstvě zodpovídá popis? Má na starosti správu duplicity a správu portů. Protokoly: TCP a UDP.",
+            "orderIndex": 45,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Síťová",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Relační",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Linková",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Aplikační",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Transportní",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Fyzická",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Prezentační",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Přiřaďte k popisu topologii: Koncové zařízení jsou připojené na průběžný vodič - koaxiální kabel pomocí BNC konektoru.",
+            "orderIndex": 46,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Hvězda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Sběrnice",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Kruh",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Strom",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Kabel typu Crossed-Over má zapojení:",
+            "orderIndex": 47,
+            "images": [],
+            "answers": [
+                {
+                    "text": "1-2, 2-5, 3-4, 5-2",
+                    "isCorrect": false
+                },
+                {
+                    "text": "1-3, 2-6, 3-4, 6-2",
+                    "isCorrect": true
+                },
+                {
+                    "text": "1-2, 2-4, 3-5, 4-2",
+                    "isCorrect": false
+                },
+                {
+                    "text": "1-3, 2-6, 3-1, 6-2",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Patch Cord je:",
+            "orderIndex": 48,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Zařízení pro vytváření konektorů",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Zařízení pro testování kabelů",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Zařízení pro ořezávání kabelů",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Propojovací kabel",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Ethernet je technologie, která je realizována (dle OSI/OSI a zároveň TCP/IP modelu):",
+            "orderIndex": 49,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Fyzické vrstvě",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vrstvě relačního rozhraní",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Vrstvě síťového rozhraní",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Linkové vrstvě",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Vrstvě transportního rozhraní",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Pro specifické aplikace výrobců je využíván standard:",
+            "orderIndex": 50,
+            "images": [],
+            "answers": [
+                {
+                    "text": "1000BASE-BX10",
+                    "isCorrect": false
+                },
+                {
+                    "text": "1000BASE-SX",
+                    "isCorrect": false
+                },
+                {
+                    "text": "1000BASE-CX",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Označení 10BASE 2 znamená:",
+            "orderIndex": 51,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Segment o délce 200m",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Přenos o rychlosti 10Mbit/s",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Přenos o rychlosti 20Mbit/s",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Segment o délce 100m",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Chce-li stanice poslat zprávu stanici, která patří k jiné síti",
+            "orderIndex": 52,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Vyhledá programové vybavení síťové vrstvy ve své směrovací tabulce adresu odpovídajícího směrovače a předá tuto adresu linkové vrstvě jako cílovou adresu pro vytvoření rámce. Adresu skutečné cílové stanice umístí do hlavičky paketu.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Vyberte vlastnosti sítí peer-to-peer:",
+            "orderIndex": 53,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Centrální správa",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Centrální řízení zdrojů",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Decentralizovaná správa",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Centralizovaná bezpečnost",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Decentralizovaná bezpečnost",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Směrovač kladnou položku TTL:",
+            "orderIndex": 54,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Snižuje o 1",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Zvyšuje o 1",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Mezi vlastnosti IP protokolu patří:",
+            "orderIndex": 55,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Nepoužívá potvrzení",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepodporuje řízení toku",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Negarantuje konzistentnost dat",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Negarantuje doporučení",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Kolik bitů tvoří síťovou část IP adresy: 130.17.16.15/16? Napište číslo:",
+            "orderIndex": 56,
+            "images": [],
+            "answers": [
+                {
+                    "text": "16",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Jaký je počet použitelných hostitelů v podsíti třídy C, která má masku 255.255.255.252? Napište číslo:",
+            "orderIndex": 57,
+            "images": [],
+            "answers": [
+                {
+                    "text": "2",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Pokud se zdrojová a cílová adresa nalézají ve stejné síti a směrování je rozpoznatelné pomocí masky sítě, jedná se o směrování:",
+            "orderIndex": 58,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Přímé",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepřímé",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Protokol UDP:",
+            "orderIndex": 59,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Obsahuje kontrolní součet, který pokrývá hlavičku i data.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "V které vrstvě probíhá směrování? Ve vrstvě (uveďte zkratku síťové vrstvy):",
+            "orderIndex": 60,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Síťová vrstva (IP)  ->  L3",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Zadejte číslo portu službu SMTP:",
+            "orderIndex": 61,
+            "images": [],
+            "answers": [
+                {
+                    "text": "25",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Označte pravdivá tvrzení o reverzních doménách:",
+            "orderIndex": 62,
+            "images": [],
+            "answers": [
+                {
+                    "text": "V jedné reverzní doméně se mohou vyskytovat doménová jména z různých domén.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Reverzní doména úzce souvisí s klasickou doménou, její zápis se provádí na stejném DNS serveru.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Reverzní doména je vždy vytvářena a delegována pro síť IP adres.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pokud není v DNS zaveden reverzní záznam pro doménové jméno, mohou některé služby nesprávně pracovat.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Záznam definující vazbu IP adresy na doménové jméno je záznam ZAR.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Záznam definující vazbu IP adresy na doménové jméno je záznam PTR.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "V závislosti na implementaci využívá DHCP server tři metody alokace IP adres:",
+            "orderIndex": 63,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Manuální alokace.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Dynamická alokace.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Automatická alokace",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Zabezpečení na síťové vrstvě přináší jistá specifika, označte pravdivé tvrzení:",
+            "orderIndex": 64,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Umožňuje omezit datové toky mezi konkrétními sítěmi a zvýšit tak výkonnost celé sítě díky definici pravidel.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Sítě můžeme rozlišit dle jejich využití VPN, označte správné odpovědi:",
+            "orderIndex": 65,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Intranetová VPN.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "VPN pro vzdálený přístup.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Virtual Private Network – prostředek propojení počítačů prostřednictvým veřejné (nedůvěryhodné) sítě",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Označte pravdivá tvrzení o nástroji MRTG:",
+            "orderIndex": 66,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Jedná se o OpenSource nástroj",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Data jsou získávána ze směrovačů a dalších aktivních síťových prvků.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Máme přidělenou IP adresu 163.127.0.0/21. Kolik můžeme nadefinovat použitelných podsítí?",
+            "orderIndex": 67,
+            "images": [],
+            "answers": [
+                {
+                    "text": "2048",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Které tři IP adresy jsou privátní:",
+            "orderIndex": 68,
+            "images": [],
+            "answers": [
+                {
+                    "text": "10.X.X.X",
+                    "isCorrect": true
+                },
+                {
+                    "text": "192.168.99.5",
+                    "isCorrect": true
+                },
+                {
+                    "text": "172.18.88.90",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Které informace jsou společné v hlavičce protokolu TCP a UDP?",
+            "orderIndex": 69,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Port odesílatele a příjemce",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Které vrstvě zodpovídá popis? Doručuje pakety na správní místo, zajišťuje dostatek síťového zdroje pro aplikace náročné na rychlost. Zařazení: routry.",
+            "orderIndex": 70,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Síťová vrstva",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Montážní skříň (Rack) může obsahovat:",
+            "orderIndex": 71,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Směrovač",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Server",
+                    "isCorrect": true
+                },
+                {
+                    "text": "UPS",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Přepínač",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Doporučení TIA/EIA-586-A obsahují:",
+            "orderIndex": 72,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Jeden centrální rozvaděč a podružné rozvaděče na každých 1000m2.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Adresa typu broadcast označuje vysílání:",
+            "orderIndex": 73,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Skupinové (do všech cílů v segmentu).",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Síťová karta může být k počítači připojena přes rozhraní:",
+            "orderIndex": 74,
+            "images": [],
+            "answers": [
+                {
+                    "text": "USB",
+                    "isCorrect": true
+                },
+                {
+                    "text": "PCI",
+                    "isCorrect": true
+                },
+                {
+                    "text": "PCMCIA",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "100BASE-FX",
+            "orderIndex": 75,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Délka kabelu mezi uzlem a aktivním prvkem může být 400 m a více.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Používá jako přenosové médium optický kabel.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Technologie 100BASE-SX:",
+            "orderIndex": 76,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Používá 850nm LED místo laserových světelných signálů.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Maximální dosah je až 550 m.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Pro práci na síťové vrstvě ISO/OSI jsou vyráběna zařízení:",
+            "orderIndex": 77,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Směrovače (routery)",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Pojem Print Server Device označuje:",
+            "orderIndex": 78,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Tiskárnu, která je připojena k zařízení/aplikace pro tisk v síťovém prostředí.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Co se stane v případě, že v dané podsíti je víc DHCP serverů a klient vyšle správu pro objevení DHCP?",
+            "orderIndex": 79,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Všechny DHCP servery odpovědi na vyslanou správu o objevení DHCP nabídkou.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Přesnější označení než paket u nespojované služby je:",
+            "orderIndex": 80,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Datagram",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Přiřaďte k dané IP adrese třídu: 112.68.0.3",
+            "orderIndex": 81,
+            "images": [],
+            "answers": [
+                {
+                    "text": "A",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Jaká je síťová adresa třetí podsítě s hlavní síťovou adresou 201.13.17.0 a maskou 255.255.255.248 (hlavní síť se počítá jako nultá podsíť. Vyjádřete v desítkové soustavě v tečkovém formátu):",
+            "orderIndex": 82,
+            "images": [],
+            "answers": [
+                {
+                    "text": "201.13.17.24",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Přiřaďte k dané IP adrese třídu: 210.13.78.9",
+            "orderIndex": 83,
+            "images": [],
+            "answers": [
+                {
+                    "text": "C",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Systém, který je sám o sebe nezávislý, se volá:",
+            "orderIndex": 84,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Autonomní",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Mezi protokoly statického směrování patří:",
+            "orderIndex": 85,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Hybridní protokoly",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Protokoly se stavem linky",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Ani jedno z napsaných",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Protokoly s vektorem vzdálenosti",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "RIP je protokol:",
+            "orderIndex": 86,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Směrovací",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Označte správné odpovědi, které vystihují problematiku zahlcení počítačové sítě:",
+            "orderIndex": 87,
+            "images": [],
+            "answers": [
+                {
+                    "text": "CWND (Congestion Window) určuje velikost okna odesílatele.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "SSTHRESH definuje hranice vysoké pravděpodobnosti zahlcení.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Označte správné odpovědi, které popisují první fázi navázaní spojení TCP protokolu (první segment):",
+            "orderIndex": 88,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Kombinace nastaveného příznaku SYN a nenastaveného ACK je specifická pro první TCP segment spojení – žádost o spojení.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Tohoto symptomu lze využít pro ochranu sítě (blokování komunikace určitým směrem).",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Protokol UDP:",
+            "orderIndex": 89,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Vytváří iluzi blokového přenosu.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Name server standardně očekává dotazy na portu:",
+            "orderIndex": 90,
+            "images": [],
+            "answers": [
+                {
+                    "text": "53",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "DNS servery pro předávání:",
+            "orderIndex": 91,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Forwarding server přebírá požadavek od klienta a předá jej dále jako rekurzivní dotaz.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Označte pravdivá tvrzení o VLAN sítích:",
+            "orderIndex": 92,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Výhodou je redukce všesměrového vysílání, respektive datového toku v síti a logická segmentace jednotlivých sítí.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Výhodou je zvýšení bezpečnosti a zvýšení propustnosti LAN sítě.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Označte zástupce komerčních řešení managementu sítí:",
+            "orderIndex": 93,
+            "images": [],
+            "answers": [
+                {
+                    "text": "HP OpenView",
+                    "isCorrect": true
+                },
+                {
+                    "text": "IBM TIVOLI",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Označte správná tvrzení popisující dohled na službami v počítačové síti:",
+            "orderIndex": 94,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Sysmon je nástroj pro dohled nad službami počítačové sítě.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Tyto nástroje umožňují informovat administrátora o výpadku sítě nebo automaticky spustit záložní okruh sítě.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Označte správná tvrzení popisující SNMP:",
+            "orderIndex": 95,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Klientský program, zvaný síťový manažer, vytváří virtuální spojení se SNMP agentem, který běží na sledovaném síťovém zařízení.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Která vrstva OSI modelu umožňuje uživateli přístup k síťovým rozhraním?",
+            "orderIndex": 96,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Aplikační",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Které z následujících tvrzení popisuje důvod použití default route?",
+            "orderIndex": 97,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Hostitel použije default route k přenosu dat k hostiteli vně místní sítě, když neexistuje žádná jiná cesta k cíli.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Síťový administrátor hledá chyby na počítači Host A, který se nemůže připojit na internet, ale může komunikovat se servery. Jaká je možná příčina popsaného problému?",
+            "orderIndex": 98,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pro síť hosta je požadovaný NAT.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Bez diagnostiky dochází k řízení tzv. naslepo se všemi důsledky. Nejsme tedy schopni říci, co se v síti děje:",
+            "orderIndex": 99,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Každá doména nižší úrovně musí mít server, který zajišťuje funkčnost a propojení v systému DNS:",
+            "orderIndex": 100,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Na obrázku je znázorněno zapojení kabelu UTP dle standardu TIA/EIA-568A (první pár vodičů zleva byl na obrázku oranžový):",
+            "orderIndex": 101,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Agregace IPv6 adres znemožňuje efektivní směrování a vyhledávání cílů v internetu:",
+            "orderIndex": 102,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "L2 PDU obsahuje ve své hlavičce hodnotu TTL:",
+            "orderIndex": 103,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Nevýhodou kruhové topologie je, že na ní nehrozí kolize, protože si stanice předávají tzv. token:",
+            "orderIndex": 104,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "PPDIOO je model životního cyklu počítačové sítě, který zahrnuje jednotlivé fáze sítě v časovém sledu:",
+            "orderIndex": 105,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "FE02::1 je multicastovou adresou:",
+            "orderIndex": 106,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Caching only server je autoritativní pro danou doménu, jeho odpověď je nezvratná:",
+            "orderIndex": 107,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Na obrázku je znázorněno zapojení kabelu UTP dle standardu TIA/EIA-568B (první pár vodičů zleva byl na obrázku oranžový):",
+            "orderIndex": 108,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Za jistých podmínek může obsahovat směrovací tabulka tu samou síť několikrát:",
+            "orderIndex": 109,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Podvrstva MAC datové vrstvy je obvykle implementována v hardware.",
+            "orderIndex": 110,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Topologie sítě je způsob zapojení různých prvků v počítačové síti.",
+            "orderIndex": 111,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Všechny směrovače v rámci stejné sítě musí mít stejný obsah svých směrovacích tabulek:",
+            "orderIndex": 112,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Standard RMON (Remote Monitoring) umožňuje vzdálené monitorování a odlehčuje tím komunikaci přesunutím části činnosti na agenta:",
+            "orderIndex": 113,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Úkolem vrstvy jádra sítě v hierarchickém designu je důkladná bezpečnostní analýza paketů, zajištění kvality služeb QoS, spolu s řadou dalších výpočetně náročných operací, které by se jinak museli vykonávat v distribuční vrstvě:",
+            "orderIndex": 114,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Páteřní vrstva (Core)",
+                    "isCorrect": false
+                },
+                {
+                    "text": "=Obsahuje redundantní spoje s dostatečnou kapacitou, zajišťuje vysokorychlostní přepínání s směrování, implementuje QoS mechanismy",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "V IPv6 protokolu je využíváno broadcastového vysílání na skupinu all hosts:",
+            "orderIndex": 115,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Bit Time je časový úsek, který na médiu zabírá signál reprezentující jeden bit:",
+            "orderIndex": 116,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Podvrstva LLC datové vrstvy je implementována v softwaru:",
+            "orderIndex": 117,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "DNS (Domain Name System) obsahuje parametr MX, který je využíván master záznamů IP adres:",
+            "orderIndex": 118,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "na jaké doménové jméno se má směrovat pošta pro nějakou doménu",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "VLAN je logické rozdělení přepínané sítě do menších podsítí (VLAN) nezávisle na fyzickém rozdělení:",
+            "orderIndex": 119,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Kolize je nečitelná interference elektromagnetického signálu vzniklá „srážkou“ dvou a více rámců na sdíleném médiu:",
+            "orderIndex": 120,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "SONA je architektonickým přístupem pro budování počítačové sítě. Hlavní důraz je kladen na vnímání sítě jako poskytovatele služeb pro klienty a ostatní aplikace:",
+            "orderIndex": 121,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Protokoly v datové komunikaci jsou otevřené nebo proprietární:",
+            "orderIndex": 122,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Reverzní překlad je překlad doménového jména na IP adresy:",
+            "orderIndex": 123,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Výhodou sběrnicové topologie jsou nízké pořizovací náklady:",
+            "orderIndex": 124,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Pro vzorkování a následné dekódování dat musí být generátor hodin jen na vysílací straně a není nutné jej synchronizovat:",
+            "orderIndex": 125,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Podvrstva LLC datové vrstvy je obvykle implementována v hardware:",
+            "orderIndex": 126,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Doména .cz je příkladem Top Level Domény:",
+            "orderIndex": 127,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Pro vzorkování a následné dekódování dat musí být generátor hodin na vysílací a přijímací straně vzájemně synchronizovány:",
+            "orderIndex": 128,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Směrovací tabulka může obsahovat sítě, které se vzájemně překrývají. Použije se první nejspecifičtější shoda:",
+            "orderIndex": 129,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "CSMA/CD je metoda jednorázového přístupu s nasloucháním nosné a detekcí kolizí:",
+            "orderIndex": 130,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Úspěšnost OSPF staví mimo jiné na rozdělení sítí do menších oblastí:",
+            "orderIndex": 131,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "díky otevřenému standardu a multivendor interoperabilitě",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "TTL - omezení životnosti datagramu zajišťuje, že se datagram nebude nekonečně dlouho putovat sítí:",
+            "orderIndex": 132,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Typickým využitím UDP je potřeba co nejrychlejší a nejefektivnější komunikace:",
+            "orderIndex": 133,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Změna DNS záznamu se projeví v počítačové síti zpravidla okamžitě:",
+            "orderIndex": 134,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Typický útok DoS znamená: Snahu dostat oběť do poruchového stavu – například záplavou paketů s příznakem SYN, zaplavení UDP pakety atd:",
+            "orderIndex": 135,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "SNMP je asynchronní protokol typu požadavek/odpověď. Trap - je příkaz, který je vyslán Agentem Managerovi jako oznámení nějaké významné události. Na rozdíl od předchozích příkazů, není očekávaná odpověď:",
+            "orderIndex": 136,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "ARPAnet je prvá počítačová síť založená na technologii přepínání okruhů:",
+            "orderIndex": 137,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "počítačová síť založená na technologii přepínání paketů",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Protokol je specifický pro konkrétní vrstvu:",
+            "orderIndex": 138,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Služební protokol ICMP slouží zejména k signalizaci mimořádných stavů:",
+            "orderIndex": 139,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Autonomní systémy dělí Internet z hlediska IP-adres (směrování), naproti tomu domény dělí Internet z hlediska jmen počítačů. Reverzní domény kopírují strukturu poskytovatelů Internetu:",
+            "orderIndex": 140,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "VPN je privátní síť, vybudovatelná pouze v rámci sítě Internet:",
+            "orderIndex": 141,
+            "images": [],
+            "answers": [
+                {
+                    "text": "Pravda",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Nepravda",
+                    "isCorrect": true
+                }
+            ]
+        }
+    ]
+}

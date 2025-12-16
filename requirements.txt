@@ -1,0 +1,12 @@
+flask
+pytesseract
+pillow
+thefuzz
+python-levenshtein
+pystray
+pyautogui
+requests
+pynput
+google-generativeai
+python-dotenv
+pyperclip
